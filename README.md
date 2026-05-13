@@ -16,7 +16,7 @@
 
 ## 📸 Screenshots
 
-> *(Add your screenshots here)*
+> 
 
 | Dialect Detection | Feature Visualization |
 |<img width="1205" height="807" alt="image" src="https://github.com/user-attachments/assets/6645260a-5ae2-4e4d-b8d1-bbb0ba08206a" />
