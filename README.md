@@ -19,12 +19,16 @@
 > *(Add your screenshots here)*
 
 | Dialect Detection | Feature Visualization |
-|:-:|:-:|
-| ![Detection UI](screenshots/detection.png) | ![Feature Charts](screenshots/features.png) |
+|<img width="1205" height="807" alt="image" src="https://github.com/user-attachments/assets/6645260a-5ae2-4e4d-b8d1-bbb0ba08206a" />
+|<img width="1161" height="803" alt="image" src="https://github.com/user-attachments/assets/17e6c2d9-0622-4418-984d-de2625c4191c" />
+|
+|<img width="1165" height="598" alt="image" src="https://github.com/user-attachments/assets/af2d1f70-ac20-4c55-9519-d51fab5b716a" />
+ |
 
 | Full Pipeline | Dialect Mixer |
-|:-:|:-:|
-| ![Pipeline](screenshots/pipeline.png) | ![Mixer](screenshots/mixer.png) |
+|<img width="525" height="910" alt="image" src="https://github.com/user-attachments/assets/943bdec7-1e8a-42bb-a394-92baaf024b0a" />
+|<img width="1748" height="981" alt="image" src="https://github.com/user-attachments/assets/94c64a94-b0bc-47ba-aacd-57369861c2d0" />
+|
 
 ---
 
@@ -253,17 +257,6 @@ Key findings:
 
 ---
 
-## 👥 Team
-
-> *(Add your team members here)*
-
-| Name | Role |
-|---|---|
-| — | ML / Data Science |
-| — | Backend |
-| — | Frontend |
-
----
 
 ## 📄 License
 
