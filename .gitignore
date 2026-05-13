@@ -1,0 +1,78 @@
+# ── Environment & Secrets ─────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.key
+secrets.json
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.whl
+pip-wheel-metadata/
+.installed.cfg
+
+# ── Virtual environments ───────────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+
+# ── ML model artifacts (large binary files — tracked via Git LFS or excluded) ─
+# Comment these out if you want to include them in the repo
+# backend/dialect_model.joblib
+# backend/feature_scaler.joblib
+# backend/label_encoder.joblib
+# backend/feature_names.joblib
+# backend/feature_stats.joblib
+
+# ── Jupyter / Colab ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Audio / temp files ────────────────────────────────────────────
+*.mp3
+*.wav
+*.ogg
+*.flac
+uploads/
+temp/
+tmp/
+output_*.mp3
+
+# ── OS ────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Logs ──────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Dataset (too large for GitHub) ────────────────────────────────
+dataset/
+dataset_split/
+*.zip
