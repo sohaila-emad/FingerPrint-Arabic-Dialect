@@ -16,17 +16,38 @@
 
 ## 📸 Screenshots
 
-> 
+### 🗣️ Dialect Detection
+> Upload or record audio and get an instant prediction of the Arabic dialect, along with confidence scores for all four supported dialects.
 
-| Dialect Detection | Feature Visualization |
-|<img width="1205" height="807" alt="image" src="https://github.com/user-attachments/assets/6645260a-5ae2-4e4d-b8d1-bbb0ba08206a" />
-|<img width="1161" height="803" alt="image" src="https://github.com/user-attachments/assets/17e6c2d9-0622-4418-984d-de2625c4191c" />
-|| Full Pipeline | Dialect Mixer |Transcript 
-|<img width="1165" height="598" alt="image" src="https://github.com/user-attachments/assets/af2d1f70-ac20-4c55-9519-d51fab5b716a" />
- |
-|<img width="525" height="910" alt="image" src="https://github.com/user-attachments/assets/943bdec7-1e8a-42bb-a394-92baaf024b0a" />
-|<img width="1748" height="981" alt="image" src="https://github.com/user-attachments/assets/94c64a94-b0bc-47ba-aacd-57369861c2d0" />
-|
+<img width="1205" height="807" alt="Dialect Detection screen showing confidence scores for Egyptian, Levantine, Emirati, and Moroccan dialects" src="https://github.com/user-attachments/assets/6645260a-5ae2-4e4d-b8d1-bbb0ba08206a" />
+
+---
+
+### 📊 Feature Visualization
+> Explore the 318 acoustic features extracted from your audio — including MFCC, chroma, spectral contrast, and prosodic features — rendered as interactive charts.
+
+<img width="1161" height="803" alt="Feature visualization panel showing radar and bar charts of extracted audio features" src="https://github.com/user-attachments/assets/17e6c2d9-0622-4418-984d-de2625c4191c" />
+
+---
+
+### 🔄 Full Speech Pipeline
+> The complete end-to-end pipeline: dialect is detected, speech is transcribed word-by-word via Whisper, translated to another dialect via Gemini, and spoken back via ElevenLabs TTS — with words highlighting in sync with audio playback.
+
+<img width="1165" height="598" alt="Full pipeline view showing transcription, translation, and TTS playback with synchronized word highlighting" src="https://github.com/user-attachments/assets/af2d1f70-ac20-4c55-9519-d51fab5b716a" />
+
+---
+
+### 🧪 Dialect Mixer
+> Blend two audio clips at a custom ratio and let the model classify the resulting mix. Useful for testing how the SVM handles ambiguous or mixed-dialect speech.
+
+<img width="525" height="910" alt="Dialect Mixer UI showing two audio inputs and a blend ratio slider" src="https://github.com/user-attachments/assets/943bdec7-1e8a-42bb-a394-92baaf024b0a" />
+
+---
+
+### 📝 Transcript View
+> Read the full timestamped transcript of your audio alongside its dialect-to-dialect translation, with each word linked to its position in the original recording.
+
+<img width="1748" height="981" alt="Transcript view showing original Arabic text with word-level timestamps alongside the translated dialect version" src="https://github.com/user-attachments/assets/94c64a94-b0bc-47ba-aacd-57369861c2d0" />
 
 ---
 
@@ -115,8 +136,7 @@ curl -X POST http://localhost:5000/detect \
     "centroid": 1527.4,
     "f0_mean": 231.1,
     "voiced_frac": 0.654,
-    "rhy_max": 0.821,
-    ...
+    "rhy_max": 0.821
   },
   "spectrogram": "<base64-encoded PNG>"
 }
@@ -254,7 +274,6 @@ Key findings:
 | Training | Google Colab, HuggingFace Datasets |
 
 ---
-
 
 ## 📄 License
 
